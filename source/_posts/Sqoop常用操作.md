@@ -1,7 +1,7 @@
 ----
 title: Sqoop抽数
 date: 2016-07-06 16:45:22
-tag: 大数据,Sqoop
+tag: 大数据 Sqoop
 ----
 
 ## 从Oracle抽数到Hbase
