@@ -5,7 +5,6 @@ tags: maven
 ---
 # Maven 学习笔记
 
-
 ## 常用命令
 
 Maven 命令基本格式
@@ -13,17 +12,27 @@ Maven 命令基本格式
 mvn <plugin-prefix>:<goal> -D<属性名>=<属性值>
 mvn <phase1> <phase2> ...
 ```
-
+<!--more-->
 ### archetype插件命令
 
 - mvn archetype:generate 使用指定原型创建一个 Maven 项目。
+    - 属性 interactiveMode=true/false 是否交互模式，默认true
+    - 属性 groupId 
+    - 属性 artifactId
+    - 属性 package
+    - 属性 archetypeAtifactId 指定建立项目使用的模板，如：maven-archetype-webapp
 - mvn archetype:create-from-project 使用已有项目创建一个 Maven 项目。
 - mvn archetype:crawl 从仓库中检索原型。
+
+
 > mvn archetype:generate -DinteractiveMode=false -DgroupId=com.wentuotuo -DartifactId=testMaven -Dpackage=com.wentuotuo.testmaven
+
 上面命令会在当前目录创建一个名叫testMaven的项目
+
 
 ### 编译 
 > mvn compile
+
 ### 执行 
 > mvn exec:java -Dexec.mainClass="com.wentuotuo.testMaven.App"
 
@@ -41,6 +50,7 @@ mvn <phase1> <phase2> ...
 - post-clean 最后清理
 > mvn post-clean
 该命令会清理项目编译过程中生成的文件，执行后testMaven中只留下src和pom.xml
+
 ### default生命周期
 - compile 编译项目
 - test 单元测试
@@ -57,7 +67,7 @@ mvn <phase1> <phase2> ...
 该命令会在target目录下生成一个site子目录，打开其中index.html就可以看到生成的站点
 
 ### 生命周期绑定
-pom.xml 见下面。主要关注<build>节点中exec插件的配置。
+pom.xml 见最下面。主要关注<build>节点中exec插件的配置。
 > mvn compile
 执行该条命令时，不仅仅会执行编译，还会执行exec:java -Dexec.mainClass="com.wentuotuo.testMaven.App"
 
@@ -90,10 +100,51 @@ pom.xml 见下面。主要关注<build>节点中exec插件的配置。
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.wentuotuo</groupId> <!-- 项目开发者的域名 -->
   <artifactId>testMaven</artifactId> <!-- 项目名字 -->
-  <packaging>jar</packaging> <!-- 指定项目打包的类型 -->
+  <packaging>jar</packaging> <!-- 指定项目打包的类型,默认jar -->
   <version>1.0-SNAPSHOT</version> <!-- 指定项目的版本 -->
   <name>mavenQs</name>
   <url>http://maven.apache.org</url>
+  <!-- 定义项目使用的License -->
+    <licenses>
+    	<license>
+    		<name>Apache 2</name>
+    		<url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    		<distribution>repo</distribution>
+    		<comments>A business-freiendly OSS license</comments>
+    	</license>
+    </licenses>
+    <!-- 声明该项目所属的组织 -->
+    <organization>
+    	<name>Ekimin</name>
+    	<url>ekimin.github.io</url>
+    </organization>
+    <!-- 声明项目的开发者 -->
+    <developers>
+    	<developer>
+    		<id>ymhe</id>
+    		<name>ymhe</name>
+    		<email>heyiminwork@gmail.com</email>
+    		<url>ekimin.github.io</url>  		
+    		<organization>Ekimin</organization>
+    		<!-- 声明开发者角色 -->
+    		<roles>
+    			<role>developer</role>
+    		</roles>
+    		<timezone>+8</timezone>
+    	</developer>
+    </developers>
+    <!-- 声明对项目有贡献的人 -->
+    <contributors>
+    	<contributor>
+    		<name>george</name>
+    		<email>georgehym@gmail.com</email>
+    		<url>ekimin.github.io</url>  		
+    		<organization>Ekimin</organization>
+    		<roles>
+    			<role>developer</role>
+    		</roles>
+    	</contributor>
+    </contributors>
   <build>
       <plugins>
           <plugin>
@@ -194,7 +245,6 @@ under the License.
    |
    | Default: ${user.home}/.m2/repository
    -->
-   <!-- 本地仓库地址 -->
   <localRepository>E:\Config\Maven\repository</localRepository>
   
 
@@ -263,9 +313,9 @@ under the License.
      |
      -->
     <server>
-      <id>deploymentRepo</id>
-      <username>repouser</username>
-      <password>repopwd</password>
+      <id>public</id>
+      <username>admin</username>
+      <password>admin123</password>
     </server>
     
 
@@ -295,13 +345,14 @@ under the License.
      | this mirror serves has an ID that matches the mirrorOf element of this mirror. IDs are used
      | for inheritance and direct lookup purposes, and must be unique across the set of mirrors.
      |
+     -->
     <mirror>
       <id>mirrorId</id>
-      <mirrorOf>repositoryId</mirrorOf>
-      <name>Human Readable Name for this Mirror.</name>
-      <url>http://my.repository.com/repo/path</url>
+      <mirrorOf>*</mirrorOf>
+      <name>WTT mirror</name>
+      <url>http://yourhost:8081/nexus/content/groups/public/</url>
     </mirror>
-     -->
+     
   </mirrors>
 
   <!-- profiles
@@ -337,24 +388,24 @@ under the License.
      | to accomplish, particularly when you only have a list of profile id's for debug.
      |
      | This profile example uses the JDK version to trigger activation, and provides a JDK-specific repo.
+     -->
     <profile>
-      <id>jdk-1.4</id>
+      <id>nexus</id>
 
-      <activation>
+     <!--  <activation>
         <jdk>1.4</jdk>
-      </activation>
+      </activation> -->
 
       <repositories>
         <repository>
-          <id>jdk14</id>
-          <name>Repository for JDK 1.4 builds</name>
-          <url>http://www.myhost.com/maven/jdk14</url>
-          <layout>default</layout>
-          <snapshotPolicy>always</snapshotPolicy>
+          <id>public</id>
+          <name>WTT repo</name>
+          <url>http://wttrepo</url><!-- 假的地址 -->
+          <layout>default</layout>          
         </repository>
       </repositories>
     </profile>
-    -->
+    
 
     <!--
      | Here is another profile, activated by the system property 'target-env' with a value of 'dev',
@@ -395,11 +446,13 @@ under the License.
   <!-- activeProfiles
    | List of profiles that are active for all builds.
    |
+   -->
   <activeProfiles>
-    <activeProfile>alwaysActiveProfile</activeProfile>
-    <activeProfile>anotherAlwaysActiveProfile</activeProfile>
+    <activeProfile>nexus</activeProfile>
+    <!-- <activeProfile>anotherAlwaysActiveProfile</activeProfile> -->
   </activeProfiles>
-  -->
+  
 </settings>
+
 
 ```
