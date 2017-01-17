@@ -12,8 +12,6 @@ permalink:
 
 Aria2 是一个轻量级多协议和多源 命令行 下载实用工具。它支持 HTTP / HTTPS, FTP, SFTP, bt 和 Metalink。通过内置 Aria2 可以操作 json - rpc 和 xml - rpc。对，Aria2 没有 GUI 图形界面，只有粗糙的命令行界面！但这也正是 Aria2 之轻快好省所在。
 
-{% asset_image http://oduq3lfcc.bkt.clouddn.com/aria2UI.png AriaUI %}
-
 ----
 <!--more-->
 # linux：
@@ -224,3 +222,5 @@ Chrome Extension: [谷歌浏览器aria2插件](https://chrome.google.com/webstor
 # 常见问题
 ## aria2 不能启动
 清空 aria2.session 内容，重新尝试启动。
+
+----
