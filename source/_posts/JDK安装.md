@@ -262,3 +262,6 @@ OpenJDK 64-Bit Server VM (build 24.79-b02, mixed mode)
 ```
 
 Ubuntu的apt-get安装方式和CentOS的yum安装方式很类似，这里就不再啰嗦。
+
+----
+

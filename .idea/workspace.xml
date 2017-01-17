@@ -2,10 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a51ad7e9-ba1d-4bc8-ae73-b033902eb469" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/next/source/images/favicon.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CNAME" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_config.yml" afterPath="$PROJECT_DIR$/_config.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/_posts/Aria2下载神器安装配置教程.md" afterPath="$PROJECT_DIR$/source/_posts/Aria2下载神器安装配置教程.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/_posts/JDK安装.md" afterPath="$PROJECT_DIR$/source/_posts/JDK安装.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/next/_config.yml" afterPath="$PROJECT_DIR$/themes/next/_config.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/next/layout/_macro/sidebar.swig" afterPath="$PROJECT_DIR$/themes/next/layout/_macro/sidebar.swig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/next/layout/_partials/header.swig" afterPath="$PROJECT_DIR$/themes/next/layout/_partials/header.swig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/next/layout/page.swig" afterPath="$PROJECT_DIR$/themes/next/layout/page.swig" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,19 +28,22 @@
       <file leaf-file-name="_config.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/themes/next/_config.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="4" column="40" lean-forward="false" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="40" />
+            <state relative-caret-position="502">
+              <caret line="284" column="18" lean-forward="false" selection-start-line="284" selection-start-column="18" selection-end-line="284" selection-end-column="18" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_config.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/yilia/_config.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="10" column="42" lean-forward="false" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
-              <folding />
+      <file leaf-file-name="JDK安装.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/_posts/JDK安装.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="272">
+                <caret line="16" column="3" lean-forward="false" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -43,22 +51,79 @@
       <file leaf-file-name="_config.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_config.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="660">
-              <caret line="33" column="26" lean-forward="false" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
+            <state relative-caret-position="204">
+              <caret line="12" column="85" lean-forward="false" selection-start-line="12" selection-start-column="85" selection-end-line="12" selection-end-column="85" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Aria2下载神器安装配置教程.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/source/_posts/Aria2下载神器安装配置教程.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="200">
-                <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-                <folding />
-              </first_editor>
-              <second_editor />
+      <file leaf-file-name="CNAME" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/CNAME">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="13" lean-forward="true" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sidebar.swig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/next/layout/_macro/sidebar.swig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.swig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/next/layout/_partials/header.swig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="202">
+              <caret line="76" column="6" lean-forward="false" selection-start-line="76" selection-start-column="6" selection-end-line="76" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_layout.swig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/next/layout/_layout.swig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="192">
+              <caret line="18" column="18" lean-forward="false" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.swig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/next/layout/index.swig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="22" column="14" lean-forward="false" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tag.swig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/next/layout/tag.swig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="5" lean-forward="false" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="page.swig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/next/layout/page.swig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -72,6 +137,8 @@
       <find>ava</find>
       <find>rss</find>
       <find>source</find>
+      <find>tags</find>
+      <find>ul</find>
     </findStrings>
     <replaceStrings>
       <replace>organization</replace>
@@ -92,7 +159,6 @@
         <option value="$PROJECT_DIR$/tags/随笔/memo.md" />
         <option value="$PROJECT_DIR$/source/_posts/diary_2017-01-15.md" />
         <option value="$PROJECT_DIR$/source/_posts/Sqoop常用操作.md" />
-        <option value="$PROJECT_DIR$/source/_posts/JDK安装.md" />
         <option value="$PROJECT_DIR$/source/_posts/Maven学习笔记.md" />
         <option value="$PROJECT_DIR$/themes/yilia/.gitignore" />
         <option value="$PROJECT_DIR$/source/_posts/IDEA乱码问题.md" />
@@ -100,9 +166,17 @@
         <option value="$PROJECT_DIR$/themes/yilia/source/slider.885efe.js" />
         <option value="$PROJECT_DIR$/themes/yilia/source/main.04d600.css" />
         <option value="$PROJECT_DIR$/themes/yilia/_config.yml" />
+        <option value="$PROJECT_DIR$/source/_posts/Aria2下载神器安装配置教程.md" />
+        <option value="$PROJECT_DIR$/source/tags/index.md" />
+        <option value="$PROJECT_DIR$/source/_posts/JDK安装.md" />
+        <option value="$PROJECT_DIR$/themes/next/layout/_macro/sidebar.swig" />
+        <option value="$PROJECT_DIR$/source/music/index.md" />
+        <option value="$PROJECT_DIR$/themes/next/layout/page.swig" />
+        <option value="$PROJECT_DIR$/themes/next/layout/index.swig" />
+        <option value="$PROJECT_DIR$/themes/next/layout/_partials/header.swig" />
         <option value="$PROJECT_DIR$/themes/next/_config.yml" />
         <option value="$PROJECT_DIR$/_config.yml" />
-        <option value="$PROJECT_DIR$/source/_posts/Aria2下载神器安装配置教程.md" />
+        <option value="$PROJECT_DIR$/CNAME" />
       </list>
     </option>
   </component>
@@ -121,7 +195,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1936" />
+    <option name="width" value="1924" />
     <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -141,27 +215,25 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Ekimin.github.io_src" />
+              <option name="myItemId" value="Blog" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Ekimin.github.io_src" />
+              <option name="myItemId" value="Blog" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Ekimin.github.io_src" />
+              <option name="myItemId" value="Blog" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Ekimin.github.io_src" />
+              <option name="myItemId" value="Blog" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -175,11 +247,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Ekimin.github.io_src" />
+              <option name="myItemId" value="Blog" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Ekimin.github.io_src" />
+              <option name="myItemId" value="Blog" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -189,11 +261,29 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Ekimin.github.io_src" />
+              <option name="myItemId" value="Blog" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Ekimin.github.io_src" />
+              <option name="myItemId" value="Blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="source" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tags" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Blog" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -207,6 +297,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -221,11 +313,13 @@
     <property name="js-jscs-nodeInterpreter" value="D:\Tool\nodejs\node.exe" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Website\Blog\themes\next\source\images" />
+      <recent name="E:\Website\Blog\source\images" />
+      <recent name="E:\IDEA\Ekimin.github.io_src\themes\yilia\source\img" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\IDEA\Ekimin.github.io_src\themes" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\IDEA\Ekimin.github.io_src\themes\yilia\source\img" />
     </key>
   </component>
   <component name="RunManager">
@@ -371,17 +465,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="BashConfigurationType" factoryName="Bash">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="INTERPRETER_PATH" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="PARAMETERS" value="" />
-      <module name="" />
-      <envs />
       <method />
     </configuration>
     <configuration default="true" type="Cold Fusion runner description" factoryName="Cold Fusion" custom_browser="" web_path="">
@@ -640,15 +723,16 @@
       <workItem from="1484573066282" duration="704000" />
       <workItem from="1484587623665" duration="394000" />
       <workItem from="1484616388300" duration="15403000" />
+      <workItem from="1484659800457" duration="6617000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34074000" />
+    <option name="totallyTimeSpent" value="40691000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1924" height="1056" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -658,26 +742,26 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32910052" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32849163" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32804233" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1673774" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16719078" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960895" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960895" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -696,234 +780,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/themes/yilia/_config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/_posts/Aria2下载神器安装配置教程.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="3706">
-            <caret line="218" column="27" lean-forward="false" selection-start-line="218" selection-start-column="27" selection-end-line="218" selection-end-column="27" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/_posts/diary_2017-01-15.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="3" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/_posts/JDK安装.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="153">
-            <caret line="9" column="11" lean-forward="false" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/_posts/Sqoop常用操作.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="51">
-            <caret line="3" column="12" lean-forward="false" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/_posts/Maven学习笔记.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding>
-              <marker date="1484616377368" expanded="true" signature="1863:2070" ph="..." />
-              <marker date="1484616377368" expanded="true" signature="1884:2050" ph="..." />
-              <marker date="1484616377368" expanded="true" signature="2298:5007" ph="..." />
-              <marker date="1484616377368" expanded="true" signature="2743:2982" ph="..." />
-              <marker date="1484616377368" expanded="true" signature="2758:2966" ph="..." />
-              <marker date="1484616377368" expanded="true" signature="3025:3103" ph="..." />
-              <marker date="1484616377368" expanded="true" signature="3142:3474" ph="..." />
-              <marker date="1484616377368" expanded="true" signature="3159:3456" ph="..." />
-              <marker date="1484616377368" expanded="true" signature="3363:3408" ph="..." />
-              <marker date="1484616377368" expanded="true" signature="3517:3782" ph="..." />
-              <marker date="1484616377368" expanded="true" signature="3536:3762" ph="..." />
-              <marker date="1484616377368" expanded="true" signature="3697:3742" ph="..." />
-              <marker date="1484616377368" expanded="true" signature="3792:4559" ph="..." />
-              <marker date="1484616377368" expanded="true" signature="3808:4546" ph="..." />
-              <marker date="1484616377368" expanded="true" signature="3827:4529" ph="..." />
-              <marker date="1484616377368" expanded="true" signature="4001:4509" ph="..." />
-              <marker date="1484616377368" expanded="true" signature="4028:4468" ph="..." />
-              <marker date="1484616377368" expanded="true" signature="4191:4251" ph="..." />
-              <marker date="1484616377368" expanded="true" signature="4325:4426" ph="..." />
-              <marker date="1484616377368" expanded="true" signature="4593:4800" ph="..." />
-              <marker date="1484616377368" expanded="true" signature="4614:4780" ph="..." />
-              <marker date="1484616377368" expanded="true" signature="4818:4996" ph="..." />
-              <marker date="1484616377368" expanded="true" signature="4835:4978" ph="..." />
-              <marker date="1484616377368" expanded="true" signature="5082:5840" ph="..." />
-              <marker date="1484616377368" expanded="true" signature="5849:6884" ph="..." />
-              <marker date="1484616377368" expanded="true" signature="6944:15189" ph="..." />
-              <marker date="1484616377368" expanded="true" signature="7133:7273" ph="..." />
-              <marker date="1484616377368" expanded="true" signature="7351:7644" ph="..." />
-              <marker date="1484616377368" expanded="true" signature="7655:7899" ph="..." />
-              <marker date="1484616377368" expanded="true" signature="7910:8260" ph="..." />
-              <marker date="1484616377368" expanded="true" signature="8279:8444" ph="..." />
-              <marker date="1484616377368" expanded="true" signature="8289:8424" ph="..." />
-              <marker date="1484616377368" expanded="true" signature="8453:8714" ph="..." />
-              <marker date="1484616377368" expanded="true" signature="8728:9148" ph="..." />
-              <marker date="1484616377368" expanded="true" signature="8738:9133" ph="..." />
-              <marker date="1484616377368" expanded="true" signature="9157:9364" ph="..." />
-              <marker date="1484616377368" expanded="true" signature="9378:10113" ph="..." />
-              <marker date="1484616377368" expanded="true" signature="9388:9742" ph="..." />
-              <marker date="1484616377368" expanded="true" signature="9757:9862" ph="..." />
-              <marker date="1484616377368" expanded="true" signature="9878:10098" ph="..." />
-              <marker date="1484616377368" expanded="true" signature="10122:10691" ph="..." />
-              <marker date="1484616377368" expanded="true" signature="10705:11229" ph="..." />
-              <marker date="1484616377368" expanded="true" signature="10715:11031" ph="..." />
-              <marker date="1484616377368" expanded="true" signature="11046:11210" ph="..." />
-              <marker date="1484616377368" expanded="true" signature="11238:12683" ph="..." />
-              <marker date="1484616377368" expanded="true" signature="12698:14934" ph="..." />
-              <marker date="1484616377368" expanded="true" signature="12708:13528" ph="..." />
-              <marker date="1484616377368" expanded="true" signature="13544:13891" ph="..." />
-              <marker date="1484616377368" expanded="true" signature="13577:13635" ph="..." />
-              <marker date="1484616377368" expanded="true" signature="13659:13876" ph="..." />
-              <marker date="1484616377368" expanded="true" signature="13680:13854" ph="..." />
-              <marker date="1484616377368" expanded="true" signature="13907:14918" ph="..." />
-              <marker date="1484616377368" expanded="true" signature="14943:15021" ph="..." />
-              <marker date="1484616377368" expanded="true" signature="15042:15174" ph="..." />
-            </folding>
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/_posts/Aria2下载神器安装配置教程.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="3706">
-            <caret line="218" column="27" lean-forward="false" selection-start-line="218" selection-start-column="27" selection-end-line="218" selection-end-column="27" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/_posts/diary_2017-01-15.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="3" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/_posts/JDK安装.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="153">
-            <caret line="9" column="11" lean-forward="true" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/_posts/Sqoop常用操作.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="187">
-            <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/_posts/Maven学习笔记.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding>
-              <marker date="1484616377368" expanded="true" signature="1863:2070" ph="..." />
-              <marker date="1484616377368" expanded="true" signature="1884:2050" ph="..." />
-              <marker date="1484616377368" expanded="true" signature="2298:5007" ph="..." />
-              <marker date="1484616377368" expanded="true" signature="2743:2982" ph="..." />
-              <marker date="1484616377368" expanded="true" signature="2758:2966" ph="..." />
-              <marker date="1484616377368" expanded="true" signature="3025:3103" ph="..." />
-              <marker date="1484616377368" expanded="true" signature="3142:3474" ph="..." />
-              <marker date="1484616377368" expanded="true" signature="3159:3456" ph="..." />
-              <marker date="1484616377368" expanded="true" signature="3363:3408" ph="..." />
-              <marker date="1484616377368" expanded="true" signature="3517:3782" ph="..." />
-              <marker date="1484616377368" expanded="true" signature="3536:3762" ph="..." />
-              <marker date="1484616377368" expanded="true" signature="3697:3742" ph="..." />
-              <marker date="1484616377368" expanded="true" signature="3792:4559" ph="..." />
-              <marker date="1484616377368" expanded="true" signature="3808:4546" ph="..." />
-              <marker date="1484616377368" expanded="true" signature="3827:4529" ph="..." />
-              <marker date="1484616377368" expanded="true" signature="4001:4509" ph="..." />
-              <marker date="1484616377368" expanded="true" signature="4028:4468" ph="..." />
-              <marker date="1484616377368" expanded="true" signature="4191:4251" ph="..." />
-              <marker date="1484616377368" expanded="true" signature="4325:4426" ph="..." />
-              <marker date="1484616377368" expanded="true" signature="4593:4800" ph="..." />
-              <marker date="1484616377368" expanded="true" signature="4614:4780" ph="..." />
-              <marker date="1484616377368" expanded="true" signature="4818:4996" ph="..." />
-              <marker date="1484616377368" expanded="true" signature="4835:4978" ph="..." />
-              <marker date="1484616377368" expanded="true" signature="5082:5840" ph="..." />
-              <marker date="1484616377368" expanded="true" signature="5849:6884" ph="..." />
-              <marker date="1484616377368" expanded="true" signature="6944:15189" ph="..." />
-              <marker date="1484616377368" expanded="true" signature="7133:7273" ph="..." />
-              <marker date="1484616377368" expanded="true" signature="7351:7644" ph="..." />
-              <marker date="1484616377368" expanded="true" signature="7655:7899" ph="..." />
-              <marker date="1484616377368" expanded="true" signature="7910:8260" ph="..." />
-              <marker date="1484616377368" expanded="true" signature="8279:8444" ph="..." />
-              <marker date="1484616377368" expanded="true" signature="8289:8424" ph="..." />
-              <marker date="1484616377368" expanded="true" signature="8453:8714" ph="..." />
-              <marker date="1484616377368" expanded="true" signature="8728:9148" ph="..." />
-              <marker date="1484616377368" expanded="true" signature="8738:9133" ph="..." />
-              <marker date="1484616377368" expanded="true" signature="9157:9364" ph="..." />
-              <marker date="1484616377368" expanded="true" signature="9378:10113" ph="..." />
-              <marker date="1484616377368" expanded="true" signature="9388:9742" ph="..." />
-              <marker date="1484616377368" expanded="true" signature="9757:9862" ph="..." />
-              <marker date="1484616377368" expanded="true" signature="9878:10098" ph="..." />
-              <marker date="1484616377368" expanded="true" signature="10122:10691" ph="..." />
-              <marker date="1484616377368" expanded="true" signature="10705:11229" ph="..." />
-              <marker date="1484616377368" expanded="true" signature="10715:11031" ph="..." />
-              <marker date="1484616377368" expanded="true" signature="11046:11210" ph="..." />
-              <marker date="1484616377368" expanded="true" signature="11238:12683" ph="..." />
-              <marker date="1484616377368" expanded="true" signature="12698:14934" ph="..." />
-              <marker date="1484616377368" expanded="true" signature="12708:13528" ph="..." />
-              <marker date="1484616377368" expanded="true" signature="13544:13891" ph="..." />
-              <marker date="1484616377368" expanded="true" signature="13577:13635" ph="..." />
-              <marker date="1484616377368" expanded="true" signature="13659:13876" ph="..." />
-              <marker date="1484616377368" expanded="true" signature="13680:13854" ph="..." />
-              <marker date="1484616377368" expanded="true" signature="13907:14918" ph="..." />
-              <marker date="1484616377368" expanded="true" signature="14943:15021" ph="..." />
-              <marker date="1484616377368" expanded="true" signature="15042:15174" ph="..." />
-            </folding>
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/source/_posts/Aria2下载神器安装配置教程.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -1089,17 +945,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/_posts/JDK安装.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="180">
-            <caret line="9" column="11" lean-forward="false" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/themes/yilia/.gitignore" />
     <entry file="file://$PROJECT_DIR$/themes/yilia/.babelrc">
       <provider selected="true" editor-type-id="text-editor">
@@ -1135,14 +980,12 @@
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="320">
             <caret line="16" column="20" lean-forward="false" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -1163,7 +1006,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
           <caret line="5" column="17" lean-forward="true" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1171,7 +1013,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="320">
           <caret line="1564" column="0" lean-forward="true" selection-start-line="1564" selection-start-column="0" selection-end-line="1564" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1179,7 +1020,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="21" column="3" lean-forward="false" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1188,99 +1028,146 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="160">
             <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-            <folding>
-              <marker date="1484616377368" expanded="true" signature="1863:2070" ph="..." />
-              <marker date="1484616377368" expanded="true" signature="1884:2050" ph="..." />
-              <marker date="1484616377368" expanded="true" signature="2298:5007" ph="..." />
-              <marker date="1484616377368" expanded="true" signature="2743:2982" ph="..." />
-              <marker date="1484616377368" expanded="true" signature="2758:2966" ph="..." />
-              <marker date="1484616377368" expanded="true" signature="3025:3103" ph="..." />
-              <marker date="1484616377368" expanded="true" signature="3142:3474" ph="..." />
-              <marker date="1484616377368" expanded="true" signature="3159:3456" ph="..." />
-              <marker date="1484616377368" expanded="true" signature="3363:3408" ph="..." />
-              <marker date="1484616377368" expanded="true" signature="3517:3782" ph="..." />
-              <marker date="1484616377368" expanded="true" signature="3536:3762" ph="..." />
-              <marker date="1484616377368" expanded="true" signature="3697:3742" ph="..." />
-              <marker date="1484616377368" expanded="true" signature="3792:4559" ph="..." />
-              <marker date="1484616377368" expanded="true" signature="3808:4546" ph="..." />
-              <marker date="1484616377368" expanded="true" signature="3827:4529" ph="..." />
-              <marker date="1484616377368" expanded="true" signature="4001:4509" ph="..." />
-              <marker date="1484616377368" expanded="true" signature="4028:4468" ph="..." />
-              <marker date="1484616377368" expanded="true" signature="4191:4251" ph="..." />
-              <marker date="1484616377368" expanded="true" signature="4325:4426" ph="..." />
-              <marker date="1484616377368" expanded="true" signature="4593:4800" ph="..." />
-              <marker date="1484616377368" expanded="true" signature="4614:4780" ph="..." />
-              <marker date="1484616377368" expanded="true" signature="4818:4996" ph="..." />
-              <marker date="1484616377368" expanded="true" signature="4835:4978" ph="..." />
-              <marker date="1484616377368" expanded="true" signature="5082:5840" ph="..." />
-              <marker date="1484616377368" expanded="true" signature="5849:6884" ph="..." />
-              <marker date="1484616377368" expanded="true" signature="6944:15189" ph="..." />
-              <marker date="1484616377368" expanded="true" signature="7133:7273" ph="..." />
-              <marker date="1484616377368" expanded="true" signature="7351:7644" ph="..." />
-              <marker date="1484616377368" expanded="true" signature="7655:7899" ph="..." />
-              <marker date="1484616377368" expanded="true" signature="7910:8260" ph="..." />
-              <marker date="1484616377368" expanded="true" signature="8279:8444" ph="..." />
-              <marker date="1484616377368" expanded="true" signature="8289:8424" ph="..." />
-              <marker date="1484616377368" expanded="true" signature="8453:8714" ph="..." />
-              <marker date="1484616377368" expanded="true" signature="8728:9148" ph="..." />
-              <marker date="1484616377368" expanded="true" signature="8738:9133" ph="..." />
-              <marker date="1484616377368" expanded="true" signature="9157:9364" ph="..." />
-              <marker date="1484616377368" expanded="true" signature="9378:10113" ph="..." />
-              <marker date="1484616377368" expanded="true" signature="9388:9742" ph="..." />
-              <marker date="1484616377368" expanded="true" signature="9757:9862" ph="..." />
-              <marker date="1484616377368" expanded="true" signature="9878:10098" ph="..." />
-              <marker date="1484616377368" expanded="true" signature="10122:10691" ph="..." />
-              <marker date="1484616377368" expanded="true" signature="10705:11229" ph="..." />
-              <marker date="1484616377368" expanded="true" signature="10715:11031" ph="..." />
-              <marker date="1484616377368" expanded="true" signature="11046:11210" ph="..." />
-              <marker date="1484616377368" expanded="true" signature="11238:12683" ph="..." />
-              <marker date="1484616377368" expanded="true" signature="12698:14934" ph="..." />
-              <marker date="1484616377368" expanded="true" signature="12708:13528" ph="..." />
-              <marker date="1484616377368" expanded="true" signature="13544:13891" ph="..." />
-              <marker date="1484616377368" expanded="true" signature="13577:13635" ph="..." />
-              <marker date="1484616377368" expanded="true" signature="13659:13876" ph="..." />
-              <marker date="1484616377368" expanded="true" signature="13680:13854" ph="..." />
-              <marker date="1484616377368" expanded="true" signature="13907:14918" ph="..." />
-              <marker date="1484616377368" expanded="true" signature="14943:15021" ph="..." />
-              <marker date="1484616377368" expanded="true" signature="15042:15174" ph="..." />
-            </folding>
+            <folding />
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/yilia/_config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="10" column="42" lean-forward="false" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/next/_config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="40" lean-forward="false" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="33" column="26" lean-forward="false" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/source/_posts/Aria2下载神器安装配置教程.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="200">
-            <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <first_editor relative-caret-position="153">
+            <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/next/source/images/favicon.ico">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/tags/index.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="102">
+            <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/next/layout/_macro/post.swig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/next/layout/_layout.swig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="18" column="18" lean-forward="false" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/music/index.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="85">
+            <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/next/layout/page.swig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/next/layout/index.swig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="14" lean-forward="false" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/next/layout/tag.swig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="5" lean-forward="false" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/next/layout/_macro/sidebar.swig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/next/layout/_partials/header.swig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="76" column="6" lean-forward="false" selection-start-line="76" selection-start-column="6" selection-end-line="76" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/yilia/_config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="57" column="8" lean-forward="true" selection-start-line="57" selection-start-column="8" selection-end-line="57" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/next/_config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="502">
+          <caret line="284" column="18" lean-forward="false" selection-start-line="284" selection-start-column="18" selection-end-line="284" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/_posts/JDK安装.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="272">
+            <caret line="16" column="3" lean-forward="false" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="85" lean-forward="false" selection-start-line="12" selection-start-column="85" selection-end-line="12" selection-end-column="85" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNAME">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="13" lean-forward="true" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>

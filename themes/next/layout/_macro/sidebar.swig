@@ -32,7 +32,7 @@
           <p class="site-description motion-element" itemprop="description">{{ theme.description }}</p>
         </div>
         <nav class="site-state motion-element">
-        
+
           {% if config.archive_dir != '/' %}
             <div class="site-state-item site-state-posts">
               <a href="{{ url_for(theme.menu.archives) }}">
