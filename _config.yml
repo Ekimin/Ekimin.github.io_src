@@ -3,12 +3,12 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Ekimin的博客
-subtitle: 稳妥妥
-description: 重庆大学09级计算机系，挣扎于IT中的一只doge
+title: 稳妥妥
+subtitle: Ekimin的博客
+description: 挣扎于IT中的一只doge
 author: Ekimin
 email: heyiminwork@gmail.com
-keywords: "爬虫,大数据,后台,前端,js,jquery,javascript,html5,开发者,程序猿,程序媛,极客,编程,代码,开源,IT网站,Developer,Programmer,Coder,Geek,html,css,css3,用户体验"
+keywords: "爬虫,大数据,后台,前端,js,jquery,javascript,html5,开发者,程序猿,编程,代码,开源,IT网站,Developer,Programmer,Coder,Geek,html,css,css3,用户体验"
 language: zh-Hans
 timezone: Asia/Shanghai #https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 

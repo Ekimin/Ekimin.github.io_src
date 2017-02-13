@@ -1,7 +1,8 @@
 ---
-title: IDEA乱码问题
+title: IDEA乱码
 date: 2017-01-16 14:13:57
 tags: [IDEA, 乱码]
+categories: 问题汇总
 ---
 
 # 代码乱码
@@ -15,8 +16,6 @@ tags: [IDEA, 乱码]
 - 打开Run/Debug Configuration,选择你的tomcat
 
 - 然后在  Server > VM options 设置为 -Dfile.encoding=UTF-8 ，重启tomcat
-
-好了，三种解决乱码的方案大概就是这样，有问题大家留言
 
 # 如果上面不管用，可以尝试下面方法修改配置文件
 打开IDEA安装目录找到 idea.exe.vmoptions （64位为 idea64.exe.vmoptions ）文件， 在文件末尾加上一行 -Dfile.encoding=UTF-8
