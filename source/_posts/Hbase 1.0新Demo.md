@@ -1,4 +1,4 @@
-title: Hbase新APIDemo
+title: Hbase新API Demo
 date: 2016-12-22 22:34:08
 tags: [大数据, hbase, code]
 categories: 大数据
